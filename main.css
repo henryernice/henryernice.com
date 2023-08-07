@@ -1,0 +1,91 @@
+.title {
+    color: rgb(50, 9, 88);
+    font-size: 40px;
+    text-align: center;
+} 
+
+.standard {
+    font-family: monospace;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.bigdiv {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.roundtextbox {
+    background-color: rgb(181, 200, 203);
+    border-radius: 13px;
+    padding: 30px;
+    text-align: center;
+    width: 35%;
+    /* display: inline-block; */
+    margin-left: 25%;
+}
+
+.narrowpane {
+    width: 15%;
+}
+.bigpane {
+    width: 70%;
+}
+
+.leftmenu {
+    border-style: solid;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: rgb(82, 66, 89);
+    border-width: 2px;
+    background-color: rgb(222, 222, 222);
+    height: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* display: inline-block; */
+    text-align: left;
+
+}
+
+p {
+    font-size: large;
+}
+
+.menutext {
+    margin: 8px;
+    
+    padding: 2px;
+    color: rgb(0, 0, 0);
+}
+
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.articles {
+    /* display: inline-block; */
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-left: 0px;
+    border-color: gray;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 80%;
+    margin-left: 5%;
+    padding: 15px;
+}
+
+.article {
+    border-bottom-style: solid;
+    border-color: black;
+    margin: 6px;
+    margin-bottom: 20px;
+    
+}
