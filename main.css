@@ -8,7 +8,9 @@
     font-family: monospace;
     margin-left: 0px;
     text-align: left;
+    background-color: rgb(210,200,180)
 }
+
 
 .bigdiv {
     display: inline-block;
@@ -22,8 +24,8 @@
     padding: 30px;
     text-align: center;
     width: 35%;
-    /* display: inline-block; */
     margin-left: 25%;
+    margin-top: 20px;
 }
 
 .narrowpane {
@@ -40,7 +42,7 @@
     border-bottom-left-radius: 0px;
     border-color: rgb(82, 66, 89);
     border-width: 2px;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(181, 200, 203);
     height: 100%;
     padding-left: 4px;
     padding-right: 4px;
@@ -98,4 +100,8 @@ a {
     margin: 6px;
     margin-bottom: 20px;
     
+}
+
+.articleimg {
+    width : 90%
 }
