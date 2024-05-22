@@ -26,6 +26,7 @@ body {
     width: 35%;
     margin-left: 25%;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .narrowpane {
