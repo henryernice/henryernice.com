@@ -3,13 +3,14 @@
         <meta charset="UTF-8">
         <meta lang="en">
         <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
         <title>henryernice.com</title>
         <link rel="icon" href="cat_preview.jpeg">
     </head>
     <body>
         <div class="standard">
             <div class="bigdiv narrowpane">
-                <div class="leftmenu">
+                <div class="leftmenu" id="leftmenu">
                     <h2>Quick Links</h2>
                     <a href="https://gurk-studios.itch.io/cataclysm" target="_blank" class="lightup">Play cataclysm</a><br><br>
                     <a href="https://catpic.henryernice.com" target="_blank" class="lightup">Go look at some random cats</a><br><br>
@@ -18,12 +19,13 @@
                 </div>
             </div>
             <div class="bigdiv bigpane">
-                <div class="roundtextbox">
+                <button style="display: inline-block; margin-left: 5%; padding: 2px; width: 15%;" class="roundtextbox" onclick="var activateUpdate=setInterval(update,20);">Make FABULOUS</button>
+                <div class="roundtextbox" id="titlebox">
                     <div class="title">
                         henryernice
                     </div>
                 </div>
-                <a href="https://bokajsim.henryernice.com/"><img src="https://s5.ezgif.com/tmp/ezgif-5-62cf2577bf.gif" width="120" style="display: inline-block;"></a>
+                <a href="https://bokajsim.henryernice.com/"><img src="https://s5.ezgif.com/tmp/ezgif-5-62cf2577bf.gif" width="120" style="display: inline-block; margin-left: 5%;"></a>
                 <div class="articles">
                     <div class="article">
                         <a href="https://gurk-studios.itch.io/cataclysm" target="_blank"><img src="cataclysm_preview.png" class="articleimg" alt="cataclysm_preview"></a>
